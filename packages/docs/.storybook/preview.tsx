@@ -17,7 +17,7 @@ export const decorators = [
   }),
   Story => (
     <div className="px-6 py-12 w-full flex items-center justify-center bg-white dark:bg-neutral-900">
-      <Story className="h-full"/>
+      <Story className="h-full" />
     </div>
   ),
 ]
@@ -44,7 +44,7 @@ const preview: Preview = {
           'Surfaces',
           ['Box'],
           'Navigation',
-          ['Avatar']
+          ['Avatar'],
         ],
       },
     },
