@@ -1,0 +1,50 @@
+import { Meta, Unstyled } from "@storybook/addon-docs"
+import { Heading, Text } from "@felix-ui/react"
+import { ColorsGrid } from "../../components/ColorsGrid"
+import { colors } from "@felix-ui/tokens"
+
+<Meta title="Tokens/Colors" />
+
+<Unstyled>
+
+<Heading>Colors</Heading>
+
+<Text size="lg">The Felix UI Color System.</Text>
+
+<Heading size="sm" asChild><h3>White</h3></Heading>
+
+<ColorsGrid colors={{0: colors.white}} name="white" />
+
+<Heading size="sm" asChild><h3>Black</h3></Heading>
+
+<ColorsGrid colors={{0: colors.black}} name="black" />
+
+<Heading size="sm" asChild><h3>Primary Colors</h3></Heading>
+
+<Text className="py-8">The brand primary color is <code className="bg-primary-600 text-white p-2">primary-600</code></Text>
+
+<ColorsGrid colors={colors.primary} name="primary" />
+
+<Heading size="sm" asChild><h3>Secondary Colors</h3></Heading>
+
+<Text className="py-8">The brand secondary color is <code className="bg-secondary-600 text-white p-2">secondary-600</code></Text>
+
+<ColorsGrid colors={colors.secondary} name="secondary" />
+
+<Heading size="sm" asChild><h3>Neutral Colors</h3></Heading>
+
+<ColorsGrid colors={colors.neutral} name="neutral" />
+
+<Heading size="sm" asChild><h3>Danger Colors</h3></Heading>
+
+<ColorsGrid colors={colors.danger} name="danger" />
+
+<Heading size="sm" asChild><h3>Warning Colors</h3></Heading>
+
+<ColorsGrid colors={colors.warning} name="warning" />
+
+<Heading size="sm" asChild><h3>Success Colors</h3></Heading>
+
+<ColorsGrid colors={colors.success} name="success" />
+
+</Unstyled>
