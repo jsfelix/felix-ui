@@ -10,16 +10,16 @@ type ColorsGridProps = {
 export function ColorsGrid({ colors, name = 'default' }: ColorsGridProps) {
   return Object.entries(colors).map(([key, color]) => {
     return (
-      <div key={key} style={{ backgroundColor: color, padding: '2rem' }}>
+      <div key={key} className="p-8" style={{ backgroundColor: color }}>
         <div
-          className="flex justify-between font-mono"
+          className="flex justify-between"
           style={{ color: getContrast(color, '#FFF') < 3.5 ? '#000' : '#fff' }}
         >
-          <strong>
+          <strong className="font-mono">
             {name}
             {key !== '0' ? `-${key}` : ''}
           </strong>
-          <span>{color}</span>
+          <strong className="font-mono">{color}</strong>
         </div>
       </div>
     )
