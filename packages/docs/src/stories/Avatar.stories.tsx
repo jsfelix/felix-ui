@@ -9,6 +9,13 @@ export default {
   args: {
     src: 'https://github.com/jsfelix.png',
     alt: 'Jefferson Felix',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['xs', 'sm', 'md', 'lg', 'xl'],
+      control: { type: 'inline-radio' },
+    },
   },
 } satisfies Meta<ComponentProps<typeof Avatar>>
 

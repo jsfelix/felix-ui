@@ -23,7 +23,7 @@ export function Text({ children, className, asChild, size = 'md' }: TextProps) {
   return (
     <Comp
       className={twMerge(
-        'text-neutral-950 mb-2 last:mb-0 dark:text-neutral-50',
+        'text-neutral-950 mb-2 last:mb-0 dark:text-neutral-100',
         sizes[size],
         className,
       )}

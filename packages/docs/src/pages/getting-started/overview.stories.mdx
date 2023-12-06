@@ -4,36 +4,33 @@ import { SubTitle } from "../../components/SubTitle"
 
 <Meta title="Getting started/Overview" />
 
-<Unstyled>
+# Felix UI - Overview
 
-<Heading>Felix UI - Overview</Heading>
+Felix UI is a React Design System that uses TailwindCSS to
+create beautiful components.
 
-<Text size="lg">Felix UI is a React Design System that uses TailwindCSS to
-create beautiful components.</Text>
+## Introduction
 
-<SubTitle>Introduction</SubTitle>
-
-<Text>Felix UI is an open-source React Design System Library that uses
+Felix UI is an open-source React Design System Library that uses
 TailwindCSS and Radix UI to create beautiful, reusable, accessible and
-server/client side components for your application.</Text>
+server/client side components for your application.
 
-<Text>Advantages of using Felix UI:</Text>
+Advantages of using Felix UI:
 
-<List.Root>
-  <List.Item>component standardization;</List.Item>
-  <List.Item>easy to use in your application;</List.Item>
-  <List.Item>because Felix UI uses TailwindCSS for styles, there is no runtime
+- component standardization;
+- easy to use in your application;
+- because Felix UI uses TailwindCSS for styles, there is no runtime
   CSS, and the library is compatible with React v18 and server side
-  components;</List.Item>
-  <List.Item>you may extend TailwindCSS and the default theme configuration in
+  components;
+- you may extend TailwindCSS and the default theme configuration in
   your app, if you want to use Tailwind; in other hands, you don't need to
-  install and use TailwindCSS.</List.Item>
-</List.Root>
+  install and use TailwindCSS.
 
-<Text>An example of `Button` component:</Text>
+An example of `Button` component:
 
 <Source
   language="tsx"
+  dark
   code={`
 import { Button } from '@felix-ui/react'
 
@@ -48,8 +45,4 @@ export function App() {
 }`}
 />
 
-<div className="p-4 border">
-  <Button onClick={() => console.log('sent!')}>Send report</Button>
-</div>
-
-</Unstyled>
+<Button onClick={() => console.log('sent!')}>Send report</Button>
