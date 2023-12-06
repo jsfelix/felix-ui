@@ -9,11 +9,19 @@ export default {
   title: 'Inputs/Button',
   component: Button,
   args: {
+    variant: 'primary',
     children: 'Send',
     disabled: false,
     loading: false,
   },
-  argTypes: {},
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary', 'ghost', 'destructive'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
 } satisfies Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
