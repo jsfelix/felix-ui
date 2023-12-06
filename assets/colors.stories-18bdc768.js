@@ -1,0 +1,19 @@
+import{g as l,M as f}from"./chunk-HLWAVYOI-222db411.js";import"./index-46948b3d.js";import{j as e}from"./jsx-runtime-2ef3df91.js";import{u as d}from"./index-e8c3912b.js";import"./iframe-263fdabc.js";import"../sb-preview/runtime.js";import"./index-e03f90b5.js";import"./_commonjsHelpers-725317a4.js";import"./react-18-c8fddc15.js";import"./index-1fb2ecf4.js";import"./chunk-ZGA76URP-2b404cd8.js";import"./index-11d98b33.js";import"./extends-98964cd2.js";import"./index-f889f612.js";import"./index-356e4a49.js";function s({colors:n,name:r="default"}){return Object.entries(n).map(([t,c])=>e.jsx("div",{className:"p-8",style:{backgroundColor:c},children:e.jsxs("div",{className:"flex justify-between",style:{color:l(c,"#FFF")<3.5?"#000":"#fff"},children:[e.jsxs("strong",{className:"font-mono",children:[r,t!=="0"?`-${t}`:""]}),e.jsx("strong",{className:"font-mono",children:c})]})},t))}try{s.displayName="ColorsGrid",s.__docgenInfo={description:"",displayName:"ColorsGrid",props:{colors:{defaultValue:null,description:"",name:"colors",required:!0,type:{name:"{ [key: string]: string; [key: number]: string; }"}},name:{defaultValue:{value:"default"},description:"",name:"name",required:!1,type:{name:"string"}}}}}catch{}var o={white:"#fff",black:"#000",transparent:"transparent",primary:{50:"#f0f9ff",100:"#e0f2fe",200:"#bae6fd",300:"#7dd3fc",400:"#38bdf8",500:"#0ea5e9",600:"#0284c7",700:"#0369a1",800:"#075985",900:"#0c4a6e",950:"#082f49"},secondary:{50:"#f0fdfa",100:"#ccfbf1",200:"#99f6e4",300:"#5eead4",400:"#2dd4bf",500:"#14b8a6",600:"#0d9488",700:"#0f766e",800:"#115e59",900:"#134e4a",950:"#042f2e"},neutral:{50:"#fafafa",100:"#f4f4f5",200:"#e4e4e7",300:"#d4d4d8",400:"#a1a1aa",500:"#71717a",600:"#52525b",700:"#3f3f46",800:"#27272a",900:"#18181b",950:"#09090b"},danger:{50:"#fef2f2",100:"#fee2e2",200:"#fecaca",300:"#fca5a5",400:"#f87171",500:"#ef4444",600:"#dc2626",700:"#b91c1c",800:"#991b1b",900:"#7f1d1d",950:"#450a0a"},warning:{50:"#fffbeb",100:"#fef3c7",200:"#fde68a",300:"#fcd34d",400:"#fbbf24",500:"#f59e0b",600:"#d97706",700:"#b45309",800:"#92400e",900:"#78350f",950:"#451a03"},success:{50:"#f0fdf4",100:"#dcfce7",200:"#bbf7d0",300:"#86efac",400:"#4ade80",500:"#22c55e",600:"#16a34a",700:"#15803d",800:"#166534",900:"#14532d",950:"#052e16"}};function i(n){const r=Object.assign({h1:"h1",p:"p",h2:"h2"},d(),n.components);return e.jsxs(e.Fragment,{children:[e.jsx(f,{title:"Tokens/Colors"}),`
+`,e.jsx(r.h1,{id:"colors",children:"Colors"}),`
+`,e.jsx(r.p,{children:"The Felix UI Color System."}),`
+`,e.jsx(r.h2,{id:"white",children:"White"}),`
+`,e.jsx(s,{colors:{0:o.white},name:"white"}),`
+`,e.jsx(r.h2,{id:"black",children:"Black"}),`
+`,e.jsx(s,{colors:{0:o.black},name:"black"}),`
+`,e.jsx(r.h2,{id:"primary-colors",children:"Primary Colors"}),`
+`,e.jsx(s,{colors:o.primary,name:"primary"}),`
+`,e.jsx(r.h2,{id:"secondary-colors",children:"Secondary Colors"}),`
+`,e.jsx(s,{colors:o.secondary,name:"secondary"}),`
+`,e.jsx(r.h2,{id:"neutral-colors",children:"Neutral Colors"}),`
+`,e.jsx(s,{colors:o.neutral,name:"neutral"}),`
+`,e.jsx(r.h2,{id:"danger-colors",children:"Danger Colors"}),`
+`,e.jsx(s,{colors:o.danger,name:"danger"}),`
+`,e.jsx(r.h2,{id:"warning-colors",children:"Warning Colors"}),`
+`,e.jsx(s,{colors:o.warning,name:"warning"}),`
+`,e.jsx(r.h2,{id:"success-colors",children:"Success Colors"}),`
+`,e.jsx(s,{colors:o.success,name:"success"})]})}function m(n={}){const{wrapper:r}=Object.assign({},d(),n.components);return r?e.jsx(r,{...n,children:e.jsx(i,{...n})}):i(n)}const p=()=>{throw new Error("Docs-only story")};p.parameters={docsOnly:!0};const a={title:"Tokens/Colors",tags:["stories-mdx"],includeStories:["__page"]};a.parameters=a.parameters||{};a.parameters.docs={...a.parameters.docs||{},page:m};const O=["__page"];export{O as __namedExportsOrder,p as __page,a as default};
