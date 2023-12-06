@@ -10,9 +10,7 @@ const config: Config = {
     './src/**/*.mdx',
   ],
   darkMode: ['class', '[data-mode="dark"]'],
-  theme: {
-    extend: tailwindConfig.theme,
-  },
+  theme: tailwindConfig.theme,
 }
 
 export default config

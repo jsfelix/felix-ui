@@ -37,6 +37,8 @@ const preview: Preview = {
           'Getting started',
           ['Overview', 'Installation'],
           'Tokens',
+          'Inputs',
+          ['Button'],
           'Typography',
           ['Text', 'Heading', 'List'],
           'Data Display',
