@@ -1,7 +1,6 @@
 import type { Preview } from "@storybook/react";
 import '@felix-ui/react/dist/global.css'
 import '../src/styles/global.css'
-import { withThemeByDataAttribute } from '@storybook/addon-themes'
 
 const preview: Preview = {
   parameters: {
