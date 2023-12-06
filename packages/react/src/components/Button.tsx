@@ -28,13 +28,14 @@ export function Button({
       ),
       variants: {
         variant: {
-          primary: `bg-primary-600 text-white hover:bg-primary-700 border-primary-600 hover:border-primary-700`,
+          primary: `bg-primary-600 text-white hover:bg-primary-700 border-primary-600
+            hover:border-primary-700`,
           secondary: `text-primary-600 border-2 hover:bg-primary-50 dark:hover:bg-primary-950
             bg-opacity-75 dark:hover:bg-opacity-50`,
           ghost: `text-primary-600 hover:bg-primary-50 dark:hover:bg-primary-950
             bg-opacity-75 dark:hover:bg-opacity-50 border-transparent`,
-          destructive:
-            'bg-danger-600 text-white hover:bg-danger-700 border-danger-600 hover:border-danger-700',
+          destructive: `bg-danger-600 text-white hover:bg-danger-700 border-danger-600
+            hover:border-danger-700`,
         },
         size: {
           sm: 'py-2 min-w-[100px] text-sm',
