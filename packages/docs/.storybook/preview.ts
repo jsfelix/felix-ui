@@ -1,10 +1,10 @@
-import type { Preview } from "@storybook/react";
+import type { Preview } from '@storybook/react'
 import '@felix-ui/react/dist/global.css'
 import '../src/styles/global.css'
 
 const preview: Preview = {
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
+    actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {
         color: /(background|color)$/i,
@@ -22,11 +22,11 @@ const preview: Preview = {
           'Typography',
           ['Text', 'Heading'],
           'Data Display',
-          ['Avatar']
-        ]
-      }
-    }
-  }
-};
+          ['Avatar'],
+        ],
+      },
+    },
+  },
+}
 
-export default preview;
+export default preview
