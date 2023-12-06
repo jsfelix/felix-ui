@@ -32,3 +32,5 @@ export function Text({ children, className, asChild, size = 'md' }: TextProps) {
     </Comp>
   )
 }
+
+Text.displayName = 'Text'

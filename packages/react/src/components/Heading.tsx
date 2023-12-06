@@ -37,3 +37,5 @@ export function Heading({
     </Comp>
   )
 }
+
+Heading.displayName = 'Heading'

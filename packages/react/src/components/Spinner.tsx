@@ -40,3 +40,5 @@ export function Spinner({ variant = 'primary' }: SpinnerProps) {
     </div>
   )
 }
+
+Spinner.displayName = 'Spinner'

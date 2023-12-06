@@ -18,3 +18,5 @@ export function Box({ className, children }: BoxProps) {
     </div>
   )
 }
+
+Box.displayName = 'Box'

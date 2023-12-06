@@ -67,3 +67,5 @@ export function Avatar(props: AvatarImageProps) {
     </AvatarRoot>
   )
 }
+
+Avatar.displayName = 'Avatar'
